@@ -7,8 +7,10 @@
 
 ## 项目描述
 ### 实验setup
+<div align = "center"> 
 <img src="readimg/setup1.png"  width="400" />
 <img src="readimg/setup2.png"  width="400" />
+</div>
 <img src="readimg/setup3.png"  width="400" />
 
 ## 算法结构
