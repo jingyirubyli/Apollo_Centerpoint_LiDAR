@@ -8,9 +8,9 @@
 ## 项目描述
 ### 实验setup
 <img src="readimg/setup1.png"  width="400" />
+<img src="readimg/setup2.png"  width="400" />
+<img src="readimg/setup3.png"  width="400" />
 
-![setup](readimg/setup2.png)
-![setup](readimg/setup3.png)
 ## 算法结构
 
 ## 结果展示
