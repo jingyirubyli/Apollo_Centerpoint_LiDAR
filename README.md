@@ -11,7 +11,9 @@
 <img src="readimg/setup1.png"  width="400" />
 <img src="readimg/setup2.png"  width="400" />
 </div>
+<div align = "center"> 
 <img src="readimg/setup3.png"  width="400" />
+</div>
 
 ## 算法结构
 
