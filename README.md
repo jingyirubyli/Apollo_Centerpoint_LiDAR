@@ -7,7 +7,7 @@
 
 ## 项目描述
 ### 实验setup
-
+![setup](readimg/setup1.png)
 
 ## 算法结构
 
