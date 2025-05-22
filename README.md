@@ -7,6 +7,8 @@
 
 ## 项目描述
 ### 实验setup
+<img src="readimg/setup1.png"  width="600" />
+
 ![setup](readimg/setup1.png =600x600)
 ![setup](readimg/setup2.png)
 ![setup](readimg/setup3.png)
