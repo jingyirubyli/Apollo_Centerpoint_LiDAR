@@ -31,7 +31,7 @@
 
 我们从目标检测部分拿到检测结果(输出数据), 下一步需要利用这些数据定义一个我们需要的安全区,然后在工人的位置变动时实时判断工人是否迈出安全区,并将结果打印出来以实现安全监测.
 <div align = "center"> 
-<img src="readimg/safezone1.png"  width="600" />
+<img src="readimg/safezone1.png"  width="300" />
 </div>
 
 检测的结果是包含8个点位置坐标的3D结构:
@@ -46,6 +46,30 @@ box = {
     "points": [(x1, y1), (x2, y2), ..., (x8, y8)]
 }
 ```
+<div align = "center"> 
+<img src="readimg/safezone2.png"  width="300" />
+<img src="readimg/safezone3.png"  width="300" />
+</div>
+
+**输入处理**
+这部分的输入是上一步(检测)的输出, 是3D点云坐标(组成一个bounding box). 我们定义安全区的思路是选择标签为traffic cone的对象,使用cones将安全区在地面上圈出来. 此时需要处理的问题是, 每个object都包含8个点坐标, 如何使用这些坐标来确定各个cone的位置? 选取每个bounding box的底面中心来代表cone的位置,这个操作很简单,只需要中心点位置公式一步计算.然后就是将这些计算所得的点连成一个封闭的多边形,代表安全区.我们首先想到简单按照位置关系,比如比较其中两点横坐标,哪个横坐标大,哪个就在左边,以此类推比较出横坐标最大的点在左边,用这个方法选出最左、最上、最右和最下四个点,再连接.这里出现两个问题:一是这样判断得出的最上最左最下最右四个点不一定能覆盖整个安全区,很容易想象;二是连接的顺序可能导致所得的图形交叉.
+
+<div align = "center"> 
+<img src="readimg/safezone4.png"  width="400" />
+</div>
+
+首先解决连接顺序的问题: 由上图可以看出要想连接出一个不交叉的封闭图形需要采用正确的顺序,这里通过比较极角来确定顺序.
+<div align = "center"> 
+<img src="readimg/polar.png"  width="300" />
+</div>
+<div align = "center"> 
+<img src="readimg/safezone5.png"  width="300" />
+</div>
+
+首先任意选一个参考点(这里选右下点举例),依次计算其他点相对于它的极角,再将这些点按照极角大小排序,从参考点开始依次连接,这样就可以保证连接出一个不交叉的封闭多边形.
+
+
+
 
 ## 结果展示
 
