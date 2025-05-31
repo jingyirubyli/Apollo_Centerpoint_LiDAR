@@ -78,14 +78,18 @@ box = {
 
 从被判断点向右(或向左,但是同一组判断方向要保持一致)绘制一条射线；计算该射线与多边形边界的交点数；如果交点数为奇数，则该点位于多边形内部，否则位于多边形外部。
 <div align = "center"> 
-<img src="readimg/safezone7.png"  width="300" />
+<img src="readimg/safezone7.png"  width="400" />
 </div>
 
 
 ## 结果展示
 
+下面展示简单的脚本模拟:
 <div align = "center"> 
 <img src="readimg/safezone8.png"  width="300" />
 <img src="readimg/safezone9.png"  width="300" />
 </div>
 
+---
+
+## 实装
