@@ -67,10 +67,24 @@ box = {
 </div>
 
 那么问题又来了,上面的例子中只有4个点,4个点无论如何都是好处理的,甚至可以直接做更多次判断. 那么路上设置的cones更多怎么办? 我们想到convex hull(凸包),它可以万无一失地圈出不交叉的封闭图形,而且可以保证区域全覆盖(上面提到的第一个问题也迎刃而解了).而且使用代码的操作也不复杂.
+<div align = "center"> 
+<img src="readimg/safezone6.png"  width="300" />
+</div>
 
+**安全性判断**
 
+我们需要判断工人是否在安全区中, 这个问题抽象为判断一个或多个点是否在一个封闭多边形中. 这一部分使用计算机图形学中的Ray-Casting Algorithm: 原理好理解,代码操作简单.
 
+从被判断点向右(或向左,但是同一组判断方向要保持一致)绘制一条射线；计算该射线与多边形边界的交点数；如果交点数为奇数，则该点位于多边形内部，否则位于多边形外部。
+<div align = "center"> 
+<img src="readimg/safezone7.png"  width="300" />
+</div>
 
 
 ## 结果展示
+
+<div align = "center"> 
+<img src="readimg/safezone8.png"  width="300" />
+<img src="readimg/safezone9.png"  width="300" />
+</div>
 
