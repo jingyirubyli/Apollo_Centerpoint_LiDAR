@@ -15,7 +15,16 @@
 <img src="readimg/setup3.png"  width="400" />
 </div>
 
+### 结构设计
+<div align = "center"> 
+<img src="readimg/diagram.png"  width="400" />
+</div>
+
+
 ## 算法结构
+<div align = "center"> 
+<img src="readimg/flow.png"  width="400" />
+</div>
 
 ## 结果展示
 
