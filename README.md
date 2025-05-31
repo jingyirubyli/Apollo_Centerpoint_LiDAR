@@ -8,22 +8,22 @@
 ## 项目描述
 ### 实验setup
 <div align = "center"> 
-<img src="readimg/setup1.png"  width="400" />
-<img src="readimg/setup2.png"  width="400" />
+<img src="readimg/setup1.png"  width="300" />
+<img src="readimg/setup2.png"  width="300" />
 </div>
 <div align = "center"> 
-<img src="readimg/setup3.png"  width="400" />
+<img src="readimg/setup3.png"  width="600" />
 </div>
 
 ### 结构设计
 <div align = "center"> 
-<img src="readimg/diagram.png"  width="400" />
+<img src="readimg/diagram.png"  width="600" />
 </div>
 
 
 ## 算法结构
 <div align = "center"> 
-<img src="readimg/flow.png"  width="400" />
+<img src="readimg/flow.png"  width="600" />
 </div>
 
 ## 结果展示
