@@ -206,4 +206,13 @@ box = {
 <img src="demo/demo1.gif"  width="300" />
 </div>
 
-2. 
+2. 工人在安全局内移动,无踏入或踏出:指示颜色不变.
+<div align = "center"> 
+<img src="demo/demo2.gif"  width="300" />
+</div>
+
+3. 工人踏出安全区时: 有人触碰边界, 指示变红色表示危险; 安全区内的工人数减少, 指示变红色表示危险.
+
+<div align = "center"> 
+<img src="demo/demo3.gif"  width="300" />
+</div>
