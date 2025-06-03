@@ -89,7 +89,9 @@ box = {
 <img src="readimg/safezone8.png"  width="300" />
 <img src="readimg/safezone9.png"  width="300" />
 </div>
-
+<div align = "center"> 
+<img src="demo/demo4.gif"  width="600" />
+</div>
 ---
 
 ## 实装
