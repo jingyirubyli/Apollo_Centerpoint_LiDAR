@@ -94,6 +94,8 @@ box = {
 
 ## 实装
 
+**实验数据组**
+
 我们采集三组数据,以第一组为例,在合适的时间段按照每10 frames选出一帧进行gt标注、检测和误差计算.
 
 <table>
@@ -107,7 +109,7 @@ box = {
   </tr>
   <tr>
     <td>Detection</td>
-    <td>None</td>
+    <td>Null</td>
     <td></td>
     <td>[15.25, 2.33]</td>
     <td>[16.24, 2.33]</td>
@@ -115,7 +117,7 @@ box = {
   </tr>
   <tr>
     <td>Ground Truth</td>
-    <td>None</td>
+    <td>Null</td>
     <td></td>
     <td>[15.2, 2.5]</td>
     <td>[16.1, 2.5]</td>
@@ -123,14 +125,15 @@ box = {
   </tr>
   <tr>
     <td>IoU</td>
-    <td>None</td>
+    <td>Null</td>
     <td></td>
     <td>58.5%</td>
     <td>48.1%</td>
     <td></td>
   </tr>
   <tr class="summary">
-    <td colspan="6" style="text-align: center;">IoU (average): 53.2%</td>
+    <td>IoU (average)</td>
+    <td colspan="9">0.653</td>
   </tr>
 </table>
 
@@ -195,3 +198,4 @@ box = {
   </tr>
 </table>
 
+**Demo**
