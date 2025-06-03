@@ -150,7 +150,6 @@ box = {
   </tr>
   <tr class="summary">
      <td colspan="10" style="text-align: center;">IoU (First 6 cones): 0.653</td>
-    <td colspan="9">0.653</td>
   </tr>
 </table>
 
