@@ -94,6 +94,47 @@ box = {
 
 ## 实装
 
+我们采集三组数据,以第一组为例,在合适的时间段按照每10 frames选出一帧进行gt标注、检测和误差计算.
+
+<table>
+  <tr>
+    <th> </th>
+    <th>Frame 10</th>
+    <th>⋯⋯⋯</th>
+    <th>180</th>
+    <th>190</th>
+    <th>⋯⋯⋯</th>
+  </tr>
+  <tr>
+    <td>Detection</td>
+    <td>None</td>
+    <td></td>
+    <td>[15.25, 2.33]</td>
+    <td>[16.24, 2.33]</td>
+    <td></td>
+  </tr>
+  <tr>
+    <td>Ground Truth</td>
+    <td>None</td>
+    <td></td>
+    <td>[15.2, 2.5]</td>
+    <td>[16.1, 2.5]</td>
+    <td></td>
+  </tr>
+  <tr>
+    <td>IoU</td>
+    <td>None</td>
+    <td></td>
+    <td>58.5%</td>
+    <td>48.1%</td>
+    <td></td>
+  </tr>
+  <tr class="summary">
+    <td colspan="6" style="text-align: center;">IoU (average): 53.2%</td>
+  </tr>
+</table>
+
+下表是检测对象交通锥detection边界框与对应真实边界框gt的中心点坐标及其 IoU.最后一行计算前6个cones的原因是在点云数据中随着距离增大,误差会相应增大.
 
 <table>
   <tr>
@@ -149,8 +190,8 @@ box = {
     <td colspan="9">0.498</td>
   </tr>
   <tr class="summary">
-     <td colspan="10" style="text-align: center;">IoU (First 6 cones): 0.653</td>
+    <td>IoU (First 6 cones)</td>
+    <td colspan="9">0.653</td>
   </tr>
 </table>
-
 
