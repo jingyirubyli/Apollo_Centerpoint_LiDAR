@@ -93,3 +93,65 @@ box = {
 ---
 
 ## 实装
+
+
+<table>
+  <tr>
+    <th></th>
+    <th>Cone 1</th>
+    <th>Cone 2</th>
+    <th>Cone 3</th>
+    <th>Cone 4</th>
+    <th>Cone 5</th>
+    <th>Cone 6</th>
+    <th>Cone 7</th>
+    <th>Cone 8</th>
+    <th>Cone 9</th>
+  </tr>
+  <tr class="header">
+    <td>Detection</td>
+    <td>(7.3, 4.1)</td>
+    <td>(15.4, 4.0)</td>
+    <td>(21.7, 4.3)</td>
+    <td>(30.5, 4.6)</td>
+    <td>(38.3, 4.8)</td>
+    <td>(45.8, 5.1)</td>
+    <td>(53.3, 5.1)</td>
+    <td>(61.5, 5.4)</td>
+    <td>(69.7, 5.5)</td>
+  </tr>
+  <tr class="header">
+    <td>Ground Truth</td>
+    <td>(7.5, 4)</td>
+    <td>(15.3, 4.0)</td>
+    <td>(21.9, 4.25)</td>
+    <td>(30.1, 4.5)</td>
+    <td>(37.7, 4.75)</td>
+    <td>(45.0, 5.0)</td>
+    <td>(52.3, 5.0)</td>
+    <td>(60.2, 5.25)</td>
+    <td>(68.0, 5.25)</td>
+  </tr>
+  <tr>
+    <td>IoU</td>
+    <td>0.69</td>
+    <td>0.66</td>
+    <td>0.67</td>
+    <td>0.67</td>
+    <td>0.64</td>
+    <td>0.59</td>
+    <td>0.55</td>
+    <td>0.48</td>
+    <td>0.43</td>
+  </tr>
+  <tr class="summary">
+    <td>IoU (average)</td>
+    <td colspan="9">0.498</td>
+  </tr>
+  <tr class="summary">
+    <td>IoU (First 6 cones)</td>
+    <td colspan="9">0.653</td>
+  </tr>
+</table>
+
+
