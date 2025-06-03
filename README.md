@@ -198,4 +198,13 @@ box = {
   </tr>
 </table>
 
-**Demo**
+**Demo:三种常见情况模拟**
+
+1. 工人踏入安全区时: 有人触碰边界, 指示变红色表示危险; 安全区内的工人数增加, 指示不变表示安全.
+   
+```HTML
+<video width="320" height="240" controls>
+    <source src="demo1.mp4" type="video/mp4">
+</video>
+```
+2. 
