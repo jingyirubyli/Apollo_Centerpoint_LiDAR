@@ -95,35 +95,6 @@ box = {
 ## 实装
 
 
-<head>
-  <meta charset="UTF-8">
-  <title>IoU Table</title>
-  <style>
-    table {
-      width: 100%;
-      border-collapse: collapse;
-      text-align: center;
-    }
-    th, td {
-      border: 1px solid #aaa;
-      padding: 8px;
-    }
-    th {
-      background-color: #2a60a4;
-      color: white;
-    }
-    .header {
-      background-color: #e0e0f0;
-      font-weight: bold;
-    }
-    .summary {
-      background-color: #f5f5f5;
-      font-weight: bold;
-    }
-  </style>
-</head>
-<body>
-
 <table>
   <tr>
     <th></th>
@@ -178,11 +149,9 @@ box = {
     <td colspan="9">0.498</td>
   </tr>
   <tr class="summary">
-    <td>IoU (First 6 cones)</td>
+     <td colspan="10" style="text-align: center;">IoU (First 6 cones): 0.653</td>
     <td colspan="9">0.653</td>
   </tr>
 </table>
-
-</body>
 
 
