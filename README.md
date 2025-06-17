@@ -6,6 +6,11 @@
 该部分只介绍我的safezone definition部分.
 
 ## 项目描述
+### 硬件设备
+Livox-Hap: https://www.livoxtech.com/hap
+Livox 航插一分三线: https://store.dji.com/cn/product/livox-three-wire-aviation-connector?vid=117441&set_region=CN&from=site-nav
+PC: Alienware (Linux)
+
 ### 实验setup
 <div align = "center"> 
 <img src="readimg/setup1.png"  width="300" />
@@ -16,6 +21,7 @@
 </div>
 
 ### 结构设计
+(使用omni graffle)
 <div align = "center"> 
 <img src="readimg/diagram.png"  width="600" />
 </div>
