@@ -7,8 +7,8 @@
 
 ## 项目描述
 ### 硬件设备
-Livox-Hap: https://www.livoxtech.com/hap
-Livox 航插一分三线: https://store.dji.com/cn/product/livox-three-wire-aviation-connector?vid=117441&set_region=CN&from=site-nav
+Livox-Hap: https://www.livoxtech.com/hap  
+Livox 航插一分三线: https://store.dji.com/cn/product/livox-three-wire-aviation-connector?vid=117441&set_region=CN&from=site-nav  
 PC: Alienware (Linux)
 
 ### 实验setup
