@@ -9,7 +9,7 @@
 ### 硬件设备
 Livox-Hap: https://www.livoxtech.com/hap  
 Livox 航插一分三线: https://store.dji.com/cn/product/livox-three-wire-aviation-connector?vid=117441&set_region=CN&from=site-nav  
-PC: Alienware (Linux)
+PC: Alienware (Linux)按照livox官方要求,安装Ubuntu22.04(适配官方的livox viewer 2工具)
 
 ### 实验setup
 <div align = "center"> 
